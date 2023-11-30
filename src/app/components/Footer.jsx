@@ -38,7 +38,7 @@ export const Footer = () => {
           <ul className="flex items-center gap-2 mb-2">
             {footerList.map((item, index) => (
               <Link href={item.link} key={index}>
-                <li className="flex items-center gap-2 text-gray-500 hover:text-primeColor duration-300 cursor-pointer">
+                <li className="flex items-center gap-2 text-gray-500 text-[14px] md:text-[18px] hover:text-primeColor duration-300 cursor-pointer">
                   {item.title}
                   {item.icon && (
                     <TbMinusVertical />

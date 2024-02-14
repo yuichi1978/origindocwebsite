@@ -5,7 +5,7 @@ import { FadeIn } from "../components/FadeIn";
 const ContactPage = () => {
   return (
     <Container>
-      <div className="flex flex-col gap-6 p-8 h-screen">
+      <div className="flex flex-col gap-6 p-8 h-screen min-h-screen">
         <FadeIn>
           <Title title={"一緒に未来を築きましょう"} />
         </FadeIn>

@@ -7,7 +7,7 @@ import { FadeIn } from "../components/FadeIn";
 const ServicePage = () => {
   return (
     <Container>
-      <div className="flex flex-col gap-6 p-8 h-full">
+      <div className="flex flex-col gap-6 p-8 h-full min-h-screen">
         <FadeIn>
           <Title title={"簡単なレポートアプリです。"} />
         </FadeIn>

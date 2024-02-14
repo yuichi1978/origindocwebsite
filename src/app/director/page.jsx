@@ -6,7 +6,7 @@ import directorImg from "public/bannerImg/director.jpg";
 const DirectorPage = () => {
   return (
     <Container>
-      <div className="flex flex-col gap-6 p-8 ">
+      <div className="flex flex-col gap-6 p-8 min-h-screen">
         <Title title={"代表者からのご挨拶"} />
         <div className="flex flex-col md:flex-row items-center gap-10">
           <p className="max-w-2xl">
